@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'dart:html';
 import 'dart:math';
 import 'package:flutter/material.dart';
@@ -240,8 +242,8 @@ class _MyHomePageState extends State<MyHomePage> {
               print('Name:${_Confirmpassword}');
             },
             style: ElevatedButton.styleFrom(
+              foregroundColor: Colors.white,
               minimumSize: Size(1000.0, 50.0),
-              onPrimary: Colors.white,
               primary: Colors.purple,
               shadowColor: Colors.purple,
               textStyle: TextStyle(fontSize: 18),
@@ -261,11 +263,11 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             child: Text("Login"),
             style: ElevatedButton.styleFrom(
+              foregroundColor: Colors.purple,
               textStyle: TextStyle(fontSize: 25),
               minimumSize: Size(1000.0, 50.0),
               backgroundColor: Colors.white,
               shadowColor: Colors.purple,
-              onPrimary: Colors.purple,
               side: BorderSide(width: 0.7, color: Colors.purple),
             ),
           )
