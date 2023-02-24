@@ -53,13 +53,13 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           ClipPath(
             clipper: WaveClipperTwo(),
-            child: Container(
-              height: 120,
+           child: Container(
+              height: 200,
               color: Colors.purple,
               child: Center(
                 child: Text(
                   "Register",
-                  style: TextStyle(fontSize: 25, color: Colors.white),
+                  style: TextStyle(fontSize: 35, color: Colors.white),
                 ),
               ),
             ),
